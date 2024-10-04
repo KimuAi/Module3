@@ -4,9 +4,9 @@ const userInput = readline.createInterface({ input, output });
 
 let hoogte = parseFloat(await userInput.question("Geef het hoogte in: "));
 
-for(let tellerhoogte = 0; tellerhoogte < hoogte; tellerhoogte ++){
+for(let teller = 0; teller < hoogte; teller ++){
 
-for(let breedteller = 0; breedteller < tellerhoogte; breedteller++){
+for(let breedteller = 0; breedteller < teller; breedteller++){
     process.stdout.write("*");
 
 }

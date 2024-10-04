@@ -6,5 +6,5 @@ let getal = parseFloat(await userInput.question("Welke maaltafel wilt u berekene
 console.log("\nde maaltafel van " + getal + ":" )
 
 for(let maaltafel = 1; maaltafel <=10; maaltafel++){
-    console.log(maaltafel + " x " + maaltafel + " = " + (getal * maaltafel));
+    console.log(getal + " x " + maaltafel + " = " + (getal * maaltafel));
 }

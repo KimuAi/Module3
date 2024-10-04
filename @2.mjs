@@ -11,4 +11,4 @@ while (getal2 !== 0) {
     getal2 = deler;
 
 } 
-console.log("De grootste gemene deler van " + getal1)
+console.log("De grootste gemeenschappelijke deler is " + getal1)

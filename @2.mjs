@@ -9,6 +9,5 @@ while (getal2 !== 0) {
     let deler = getal1 % getal2;
     getal1 = getal2;
     getal2 = deler;
-
 } 
 console.log("De grootste gemeenschappelijke deler is " + getal1)

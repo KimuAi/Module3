@@ -5,3 +5,19 @@ const userInput = readline.createInterface({input, output});
 let getal1 = parseFloat(await userInput.question("geef getal 1"))
 let getal2 = parseFloat(await userInput.question("geef getal 2"))
 
+do
+{
+
+    while(getal1 <= 0 )
+    {
+        getal1 = parseFloat(await userInput.question("Getal moet groter dan 0 zijn! Geef getal 1: "));
+    }
+
+    while(getal2 <= 0 )
+    {
+        getal2 = parseFloat(await userInput.question("Getal moet groter dan 0 zijn! Geef getal 2: ")); 
+    }
+
+}while(getal1 < 0 && getal2 < 0);
+
+console.log("som is: " + (getal1 + getal2));
